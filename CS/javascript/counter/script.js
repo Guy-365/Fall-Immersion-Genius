@@ -1,3 +1,13 @@
-function counter() {
-// Write your code below. Hint: you can finish it in about 3-5 lines.
+const Dark= document.body;
+
+function counter(){
+if(document.style.backgroundcolor=== 'white'){
+  Dark.style.backgroundColor ='black';
+  Dark.style.color = 'white';
+}
+else{
+  Dark.style.backgroundColor = 'white'
+  Dark.style.color = 'black'
+}
+  
 }
