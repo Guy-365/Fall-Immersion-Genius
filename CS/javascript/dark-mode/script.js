@@ -1,13 +1,16 @@
 function darkMode() {
-    
-    const Darkmode = document.body;
+     
+    const Back = document.body;
 
-    if (Darkmode.style.backgroundColor === 'black') {
-        Darkmode.style.backgroundColor = 'white';
-        Darkmode.style.color = 'black';
+    
+    if (Back.style.backgroundColor === 'black') {
+      
+        Back.style.backgroundColor = 'white';
+        body.style.color = 'black';
     } else {
-        Darkmode.style.backgroundColor = 'black';
-        Darkmode.style.color = 'white';
+        
+        Back.style.backgroundColor = 'black';
+        Back.style.color = 'white';
     }
 
 }
